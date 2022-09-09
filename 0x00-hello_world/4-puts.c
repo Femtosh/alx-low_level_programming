@@ -1,10 +1,9 @@
 #include <stdio.h>
 
 /**
-* comment starts here
-* This programme prints Programming is like building a multilingual puzzle
-* Retunn 0;
-*
+* main - Entry point
+* 
+* Return: Always 0 Success
 */
 
 int main(void)
