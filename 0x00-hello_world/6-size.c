@@ -7,11 +7,11 @@
  */
 int main(void)
 {
+	char c;
 	int i;
-	float f;
 	long li;
 	long long lli;
-	char c;
+	float f;
 
 	printf("Size of a char: %Id byte(s)\n", sizeof(c));
 	printf("Size of an int: %Id byte(s)\n", sizeof(i));
