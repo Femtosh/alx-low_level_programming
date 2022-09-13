@@ -6,10 +6,8 @@
  *
  * Return: Always 0 (Success)
  */
-int main(void)
+void printnumber(int l)
 {
-	int l;
-
 	for (l = 0; l < 10; l++)
 	{
 		putchar("%i", l);
