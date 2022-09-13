@@ -8,9 +8,9 @@
  */
 int main(void)
 {
-	long l;
+	int l;
 
-	for (l = 0; l < 10; l++)
+	for (l = 0; l <= 9; l++)
 	{
 		putchar(l);
 	}
