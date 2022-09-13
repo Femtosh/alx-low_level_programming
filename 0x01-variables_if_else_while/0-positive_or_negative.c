@@ -5,8 +5,8 @@
 /**
  * main = Entry point
  * Description: using the main function
- * Return: 0
- 
+ * this program prints whether n is positive, negative or zero
+ * Return: 0 
  */
 
 
@@ -15,7 +15,7 @@ int main(void)
 {
 	int n;
 
-	srand (time(0));
+	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	if (n > 0)
 	{
