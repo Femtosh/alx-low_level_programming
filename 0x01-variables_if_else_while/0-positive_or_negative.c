@@ -4,6 +4,7 @@
 /* more headers goes there */
 /**
  * main = Entry point
+ * Description: using the main function
  * Return: 0
  
  */
