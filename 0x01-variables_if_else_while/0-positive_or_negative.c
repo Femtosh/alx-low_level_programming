@@ -1,18 +1,14 @@
 #include <stdio.h>
 #include <time.h>
 #include <stdlib.h>
-
 /**
- * main = Entry point
+ * main - Entry point
  *
- * Description: using the main function
- * this program prints whether n is positive, negative or zero
- * Return: 0 
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
 	int n;
-
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	if (n > 0)
