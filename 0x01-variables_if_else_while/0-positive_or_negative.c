@@ -2,7 +2,11 @@
 #include <time.h>
 #include <stdlib.h>
 /* more headers goes there */
-
+/**
+ * main = Entry point
+ * Return: 0
+ 
+ */
 
 
 /* betty style doc for function main goes there */
