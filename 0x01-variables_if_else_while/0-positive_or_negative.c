@@ -1,16 +1,14 @@
 #include <stdio.h>
 #include <time.h>
 #include <stdlib.h>
-/* more headers goes there */
+
 /**
  * main = Entry point
+ *
  * Description: using the main function
  * this program prints whether n is positive, negative or zero
  * Return: 0 
  */
-
-
-/* betty style doc for function main goes there */
 int main(void)
 {
 	int n;
