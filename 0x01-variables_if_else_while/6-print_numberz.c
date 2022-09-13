@@ -6,13 +6,15 @@
  *
  * Return: Always 0 (Success)
  */
-void printnumber(int l)
+int main(void)
 {
+	int l;
+
 	for (l = 0; l < 10; l++)
 	{
-		putchar("%i", l);
+		putchar(l);
 	}
-	putchar("\n");
+	putchar('\n');
 	return (0);
 }
 
