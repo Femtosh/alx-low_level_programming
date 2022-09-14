@@ -1,4 +1,4 @@
-#include "main"
+#include "main.h"
 /**
  * print_alphabet_x10 - function prints a-z ten times
  *
