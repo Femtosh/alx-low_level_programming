@@ -2,7 +2,7 @@
 /**
  * print_sign - function prints sign infront ofnumber
  *
- * @n - checks for number
+ * @n: is the int that will use for the argument
  * Return: Always 0 (Success)
  */
 int print_sign(int n)
