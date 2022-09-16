@@ -1,9 +1,8 @@
 #include "main"
 
 /**
- * main - Entry Point
- *
- * Returns: Always 0 (Success)
+ * main - tests function that prints if integer is positve or negative
+ * Returns: 0
  */
 
 int main(void)
