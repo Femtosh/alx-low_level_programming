@@ -3,7 +3,7 @@
 
 /**
  * puts2 - prints every other number
- * @str - strings to input
+ * @str: string to input
  * 
  * Return: Always 0 (success)
  */
