@@ -14,13 +14,13 @@ void puts_half(char *str)
 	
 	while (*(str + n) != '\0')
 	{
-	for (length_of_the_string % 2 == 0)
+	for (length_of_the_string % 2 == 0);
 		n = length_of_the_string / 2;
 		{
 			putchar(*(str + n));
 			n++;
 		}
-	 	n = (length_of_the_string - 1) / 2
+	 	n = ((length_of_the_string - 1) / 2);
 		{
 			putchar(*(str + n));
 			n++;
