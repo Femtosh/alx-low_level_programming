@@ -1,0 +1,6 @@
+#include <stdio.h>
+#include "main.h"
+
+/**
+ * _puts - Function prints a string
+ * @str: string to print
