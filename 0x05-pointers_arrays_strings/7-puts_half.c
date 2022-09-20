@@ -15,15 +15,19 @@ void puts_half(char *str)
 	while (*(str + n) != '\0')
 	{
 	if (length_of_the_string % 2 == 0)
-	{		
-	n = length_of_the_string / 2;
+	{
+	for (n = length_of_the_string / 2)
+		{
+			putchar(*(str + n));
+			n++;
+		}
 	}
-	putchar(*(str + n));
-	n++;
 	else {
-	n = (length_of_the_string - 1) / 2
-	}
+	for (n = (length_of_the_string - 1) / 2)
+	{
 	putchar (*(str + n));
 	n++;
+	}
+	}
 	}
 }
