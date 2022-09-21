@@ -1,0 +1,10 @@
+#include "main.h"
+#include <stdio.h>
+
+/**
+ */
+ * _strncat - concatenate two strings but add inputed numbers
+ * @dest: string to be appended upon
+ * @src: string to be completed at the end of dest
+ * @n: integer parameter to compare index
+ * Return: Always 0 (Success)
