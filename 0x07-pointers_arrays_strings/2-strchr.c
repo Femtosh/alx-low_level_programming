@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
  * _strchr - checks character in a string
@@ -8,7 +7,6 @@
  *
  * Return: Always null
  */
-
 char *_strchr(char *s, char c)
 {
 	int i;
@@ -18,7 +16,7 @@ char *_strchr(char *s, char c)
 		if (*(s + i) == c)
 		return (s + i);
 	}
-	if (*s(s + i) == c)
+	if (*(s + i) == c)
 		return (s + i);
 	return (0);
 }
