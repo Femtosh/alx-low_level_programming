@@ -1,0 +1,13 @@
+#include "main.h"
+#include <stdio.h>
+
+/**
+ * strchr - checks character in a string
+ * @s: strings to check
+ * @c: character to check
+ *
+ * Return - Always null
+ */
+
+char *_strchr(char *s, char c)
+	
