@@ -6,7 +6,7 @@
  * @src: where it is copied from
  * @n: number of bytes copied
  *
- * Return: Always 0 (Success)
+ * Return: pointer to be copied memory block
  */
 
 char *_memcpy(char *dest, char *src, unsigned int n);
