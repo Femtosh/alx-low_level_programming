@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
  * _memset - fills a memory block with a contant byte
@@ -14,9 +13,9 @@ char *_memset(char *s, char b, unsigned int n)
 {
 	while (n)
 	{
-	s[n-1] = b;
+	s[n - 1] = b;
 	n--;
 	}
-	return (0);
+	return (s);
 }
 
