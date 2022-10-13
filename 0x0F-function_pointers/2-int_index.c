@@ -5,7 +5,7 @@
  * int_index - finds and integer
  * array: array of intergers
  * @size: size of the array
- * @cmp : the pointer
+ * @cmp: the pointer
  *
  * Return: Always 0 (success)
  */
@@ -24,17 +24,15 @@ int int_index(int *array, int size, int (*cmp)(int))
 		{
 			cmp(array[i]);
 			if (cmp(array[i]) > 0)
-				{
-					res = 1;
-					break;
-				}
-				if ((cmp(array[i]) == (-1)))
-				{
-					return (res);
-				}
+			{
+				res = 1;
+				break;
+			}
+			if ((cmp(array[i]) == (-1)))
+			{
+				return (res);
+			}
 		}
 	}
 	return (res);
-}
-
-				
+}		
